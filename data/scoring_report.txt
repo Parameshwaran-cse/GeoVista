@@ -1,0 +1,16 @@
+=== SCORING REPORT ===
+Zero-variance indicators: None
+
+=== CLASSIFICATION THRESHOLDS (Health Score) ===
+Red (bottom 1/3) < 0.666632
+Yellow (middle 1/3) between 0.666632 and 0.736966
+Green (top 1/3) >= 0.736966
+
+High Disparity Threshold (Disparity Score >= 75th percentile): 0.356734
+
+=== SUMMARY COUNTS ===
+Green: 1061
+Yellow: 1061
+Red: 1061
+Insufficient Data: 27
+High Disparity Flagged: 796

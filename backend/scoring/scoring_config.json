@@ -1,0 +1,49 @@
+{
+  "classification_method": "quantile",
+  "indicators": {
+    "Years of Potential Life Lost Rate": {
+      "direction": "negative",
+      "weight": 0.0909090909090909
+    },
+    "Poor Physical Health Days | Average Number of Physically Unhealthy Days": {
+      "direction": "negative",
+      "weight": 0.0909090909090909
+    },
+    "Poor Mental Health Days | Average Number of Mentally Unhealthy Days": {
+      "direction": "negative",
+      "weight": 0.0909090909090909
+    },
+    "% Low Birth Weight": {
+      "direction": "negative",
+      "weight": 0.0909090909090909
+    },
+    "Poor or Fair Health | % Fair or Poor Health": {
+      "direction": "negative",
+      "weight": 0.0909090909090909
+    },
+    "Flu Vaccinations | % Vaccinated": {
+      "direction": "positive",
+      "weight": 0.0909090909090909
+    },
+    "Preventable Hospital Stays | Preventable Hospitalization Rate": {
+      "direction": "negative",
+      "weight": 0.0909090909090909
+    },
+    "Mammography Screening | % with Annual Mammogram": {
+      "direction": "positive",
+      "weight": 0.0909090909090909
+    },
+    "Air Pollution: Particulate Matter | Average Daily PM2.5": {
+      "direction": "negative",
+      "weight": 0.0909090909090909
+    },
+    "Income Ratio": {
+      "direction": "negative",
+      "weight": 0.0909090909090909
+    },
+    "Children in Poverty | % Children in Poverty": {
+      "direction": "negative",
+      "weight": 0.0909090909090909
+    }
+  }
+}

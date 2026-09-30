@@ -1,0 +1,21 @@
+=== PREPROCESSING REPORT ===
+Total Counties: 3210
+Counties marked partial: 341
+Counties marked insufficient_data: 27
+
+=== PER-INDICATOR NULL COUNTS ===
+Years of Potential Life Lost Rate: 254
+Poor Physical Health Days | Average Number of Physically Unhealthy Days: 15
+Poor Mental Health Days | Average Number of Mentally Unhealthy Days: 15
+% Low Birth Weight: 116
+Poor or Fair Health | % Fair or Poor Health: 15
+Flu Vaccinations | % Vaccinated: 34
+Preventable Hospital Stays | Preventable Hospitalization Rate: 90
+Mammography Screening | % with Annual Mammogram: 38
+Air Pollution: Particulate Matter | Average Daily PM2.5: 95
+Income Ratio: 37
+Children in Poverty | % Children in Poverty: 16
+
+=== INDICATOR MAPPING ===
+Matched 'Low Birth Weight | % Low Birth Weight' to dataset column '% Low Birth Weight'
+Matched 'Income Inequality | Income Ratio' to dataset column 'Income Ratio'

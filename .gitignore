@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+.env
+
+# Node
+node_modules/
+dist/
+
+# Artifacts & Local Data
+# Do not ignore the static counties.json or GeoVista_HDX_Cleaned_Base.xlsx as they are needed for reproducible runs
+# But we should ignore potentially large generated data if not needed, though the instructions say:
+# "raw dataset and processed outputs needed for a faculty demo should still be included or clearly documented as needed"
+# I will not ignore processed_counties.csv or scored_counties.csv since it's needed for the demo
+us_counties_simplified.geojson

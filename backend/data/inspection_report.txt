@@ -1,0 +1,483 @@
+=== DATASET SHAPE ===
+Rows: 3210, Columns: 212
+
+=== COLUMN NAMES AND DTYPES ===
+FIPS: int64
+State: str
+County: str
+Premature Death | Unreliable: str
+Deaths: float64
+Years of Potential Life Lost Rate: float64
+95% CI - Low: float64
+95% CI - High: float64
+National Z-Score: float64
+YPLL Rate (Hispanic (all races)): float64
+YPLL Rate (Hispanic (all races)) 95% CI - Low: float64
+YPLL Rate (Hispanic (all races)) 95% CI - High: float64
+YPLL Rate (Non-Hispanic AIAN): float64
+YPLL Rate (Non-Hispanic AIAN) 95% CI - Low: float64
+YPLL Rate (Non-Hispanic AIAN) 95% CI - High: float64
+YPLL Rate (Non-Hispanic Asian): float64
+YPLL Rate (Non-Hispanic Asian) 95% CI - Low: float64
+YPLL Rate (Non-Hispanic Asian) 95% CI - High: float64
+YPLL Rate (Non-Hispanic Black): float64
+YPLL Rate (Non-Hispanic Black) 95% CI - Low: float64
+YPLL Rate (Non-Hispanic Black) 95% CI - High: float64
+YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander): float64
+YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - Low: float64
+YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - High: float64
+YPLL Rate (Non-Hispanic White): float64
+YPLL Rate (Non-Hispanic White) 95% CI - Low: float64
+YPLL Rate (Non-Hispanic White) 95% CI - High: float64
+Poor Physical Health Days | Average Number of Physically Unhealthy Days: float64
+95% CI - Low_1: float64
+95% CI - High_1: float64
+National Z-Score_1: float64
+Low Birth Weight | Unreliable: str
+% Low Birth Weight: float64
+95% CI - Low_2: float64
+95% CI - High_2: float64
+National Z-Score_2: float64
+% LBW (Hispanic (all races)): float64
+% LBW (Hispanic (all races)) 95% CI - Low: float64
+% LBW (Hispanic (all races)) 95% CI - High: float64
+% LBW (Non-Hispanic AIAN): float64
+% LBW (Non-Hispanic AIAN) 95% CI - Low: float64
+% LBW (Non-Hispanic AIAN) 95% CI - High: float64
+% LBW (Non-Hispanic Asian): float64
+% LBW (Non-Hispanic Asian) 95% CI - Low: float64
+% LBW (Non-Hispanic Asian) 95% CI - High: float64
+% LBW (Non-Hispanic Black): float64
+% LBW (Non-Hispanic Black) 95% CI - Low: float64
+% LBW (Non-Hispanic Black) 95% CI - High: float64
+% LBW (Non-Hispanic Native Hawaiian and Other Pacific Islander): float64
+% LBW (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - Low: float64
+% LBW (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - High: float64
+% LBW (Non-Hispanic 2+ races): float64
+% LBW (Non-Hispanic 2+ races) 95% CI - Low: float64
+% LBW (Non-Hispanic 2+ races) 95% CI - High: float64
+% LBW (Non-Hispanic White): float64
+% LBW (Non-Hispanic White) 95% CI - Low: float64
+% LBW (Non-Hispanic White) 95% CI - High: float64
+Poor Mental Health Days | Average Number of Mentally Unhealthy Days: float64
+95% CI - Low_3: float64
+95% CI - High_3: float64
+National Z-Score_3: float64
+Poor or Fair Health | % Fair or Poor Health: float64
+95% CI - Low_4: float64
+95% CI - High_4: float64
+National Z-Score_4: float64
+Flu Vaccinations | % Vaccinated: float64
+National Z-Score_5: float64
+% Vaccinated (AIAN): float64
+% Vaccinated (Asian): float64
+% Vaccinated (Black): float64
+% Vaccinated (Hispanic): float64
+% Vaccinated (White): float64
+Access to Exercise Opportunities | % With Access to Exercise Opportunities: float64
+National Z-Score_6: float64
+Food Environment Index: float64
+National Z-Score_7: float64
+Primary Care Physicians | # Primary Care Physicians: float64
+Primary Care Physicians Rate: float64
+Primary Care Physicians Ratio: str
+National Z-Score_8: float64
+Mental Health Providers | # Mental Health Providers: float64
+Mental Health Provider Rate: float64
+Mental Health Provider Ratio: str
+National Z-Score_9: float64
+Dentists | # Dentists: float64
+Dentist Rate: float64
+Dentist Ratio: str
+National Z-Score_10: float64
+Preventable Hospital Stays | Preventable Hospitalization Rate: float64
+National Z-Score_11: float64
+Preventable Hosp. Rate (AIAN): float64
+Preventable Hosp. Rate (Asian): float64
+Preventable Hosp. Rate (Black): float64
+Preventable Hosp. Rate (Hispanic): float64
+Preventable Hosp. Rate (White): float64
+Mammography Screening | % with Annual Mammogram: float64
+National Z-Score_12: float64
+% Screened (AIAN): float64
+% Screened (Asian): float64
+% Screened (Black): float64
+% Screened (Hispanic): float64
+% Screened (White): float64
+Uninsured | # Uninsured: float64
+% Uninsured: float64
+95% CI - Low_5: float64
+95% CI - High_5: float64
+National Z-Score_13: float64
+Severe Housing Problems | % Severe Housing Problems: float64
+95% CI - Low_6: float64
+95% CI - High_6: float64
+Severe Housing Cost Burden: float64
+Severe Housing Cost Burden 95% CI - Low: float64
+Severe Housing Cost Burden 95% CI - High: float64
+Overcrowding: float64
+Overcrowding 95% CI - Low: float64
+Overcrowding 95% CI - High: float64
+Inadequate Facilities: float64
+Inadequate Facilities 95% CI - Low: float64
+Inadequate Facilities 95% CI - High: float64
+National Z-Score_14: float64
+Driving Alone to Work | % Drive Alone to Work: float64
+95% CI - Low_7: float64
+95% CI - High_7: float64
+National Z-Score_15: float64
+% Drive Alone (AIAN): float64
+% Drive Alone (AIAN) 95% CI - Low: float64
+% Drive Alone (AIAN) 95% CI - High: float64
+% Drive Alone (Asian): float64
+% Drive Alone (Asian) 95% CI - Low: float64
+% Drive Alone (Asian) 95% CI - High: float64
+% Drive Alone (Black): float64
+% Drive Alone (Black) 95% CI - Low: float64
+% Drive Alone (Black) 95% CI - High: float64
+% Drive Alone (Hispanic): float64
+% Drive Alone (Hispanic) 95% CI - Low: float64
+% Drive Alone (Hispanic) 95% CI - High: float64
+% Drive Alone (White): float64
+% Drive Alone (White) 95% CI - Low: float64
+% Drive Alone (White) 95% CI - High: float64
+Long Commute - Driving Alone | # Workers who Drive Alone: float64
+% Long Commute - Drives Alone: float64
+95% CI - Low_8: float64
+95% CI - High_8: float64
+National Z-Score_16: float64
+Air Pollution: Particulate Matter | Average Daily PM2.5: float64
+National Z-Score_17: float64
+Drinking Water Violations | Presence of Water Violation: str
+National Z-Score_18: float64
+Broadband Access | % Households with Broadband Access: float64
+# Households with Broadband Access: float64
+95% CI - Low_9: float64
+95% CI - High_9: float64
+National Z-Score_19: float64
+Library Access | Visits per service area population: float64
+National Z-Score_20: float64
+Some College | # Some College: float64
+Population: float64
+% Some College: float64
+95% CI - Low_10: float64
+95% CI - High_10: float64
+National Z-Score_21: float64
+High School Completion | # Completed High School: float64
+Population_1: float64
+% Completed High School: float64
+95% CI - Low_11: float64
+95% CI - High_11: float64
+National Z-Score_22: float64
+Unemployment | # Unemployed: float64
+Labor Force: float64
+% Unemployed: float64
+National Z-Score_23: float64
+Income Inequality | 80th Percentile Income: float64
+20th Percentile Income: float64
+Income Ratio: float64
+National Z-Score_24: float64
+Children in Poverty | % Children in Poverty: float64
+95% CI - Low_12: float64
+95% CI - High_12: float64
+National Z-Score_25: float64
+% Children in Poverty (AIAN): float64
+% Children in Poverty (Asian): float64
+% Children in Poverty (Black): float64
+% Children in Poverty (Hispanic): float64
+% Children in Poverty (White): float64
+Injury Deaths | # Injury Deaths: float64
+Injury Death Rate: float64
+95% CI - Low_13: float64
+95% CI - High_13: float64
+National Z-Score_26: float64
+Injury Death Rate (Hispanic (all races)): float64
+Injury Death Rate (Hispanic (all races)) 95% CI - Low: float64
+Injury Death Rate (Hispanic (all races)) 95% CI - High: float64
+Injury Death Rate (Non-Hispanic AIAN): float64
+Injury Death Rate (Non-Hispanic AIAN) 95% CI - Low: float64
+Injury Death Rate (Non-Hispanic AIAN) 95% CI - High: float64
+Injury Death Rate (Non-Hispanic Asian): float64
+Injury Death Rate (Non-Hispanic Asian) 95% CI - Low: float64
+Injury Death Rate (Non-Hispanic Asian) 95% CI - High: float64
+Injury Death Rate (Non-Hispanic Black): float64
+Injury Death Rate (Non-Hispanic Black) 95% CI - Low: float64
+Injury Death Rate (Non-Hispanic Black) 95% CI - High: float64
+Injury Death Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander): float64
+Injury Death Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - Low: float64
+Injury Death Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - High: float64
+Injury Death Rate (Non-Hispanic White): float64
+Injury Death Rate (Non-Hispanic White) 95% CI - Low: float64
+Injury Death Rate (Non-Hispanic White) 95% CI - High: float64
+Social Associations | # Associations: float64
+Social Association Rate: float64
+National Z-Score_27: float64
+Child Care Cost Burden | % Household Income Required for Child Care Expenses: float64
+National Z-Score_28: float64
+
+
+=== FIRST 5 ROWS ===
+   FIPS  ... National Z-Score_28
+0  1000  ...                 NaN
+1  1001  ...           -0.961825
+2  1003  ...           -1.316051
+3  1005  ...            0.001105
+4  1007  ...           -0.283990
+
+[5 rows x 212 columns]
+
+
+=== NULL COUNT PER COLUMN ===
+FIPS                                                                                            0
+State                                                                                           0
+County                                                                                         51
+Premature Death | Unreliable                                                                 3027
+Deaths                                                                                        254
+Years of Potential Life Lost Rate                                                             254
+95% CI - Low                                                                                  254
+95% CI - High                                                                                 254
+National Z-Score                                                                              121
+YPLL Rate (Hispanic (all races))                                                             2371
+YPLL Rate (Hispanic (all races)) 95% CI - Low                                                2371
+YPLL Rate (Hispanic (all races)) 95% CI - High                                               2371
+YPLL Rate (Non-Hispanic AIAN)                                                                3018
+YPLL Rate (Non-Hispanic AIAN) 95% CI - Low                                                   3018
+YPLL Rate (Non-Hispanic AIAN) 95% CI - High                                                  3018
+YPLL Rate (Non-Hispanic Asian)                                                               2947
+YPLL Rate (Non-Hispanic Asian) 95% CI - Low                                                  2947
+YPLL Rate (Non-Hispanic Asian) 95% CI - High                                                 2947
+YPLL Rate (Non-Hispanic Black)                                                               2109
+YPLL Rate (Non-Hispanic Black) 95% CI - Low                                                  2109
+YPLL Rate (Non-Hispanic Black) 95% CI - High                                                 2109
+YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander)                          3168
+YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - Low             3168
+YPLL Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - High            3168
+YPLL Rate (Non-Hispanic White)                                                               1783
+YPLL Rate (Non-Hispanic White) 95% CI - Low                                                  1783
+YPLL Rate (Non-Hispanic White) 95% CI - High                                                 1783
+Poor Physical Health Days | Average Number of Physically Unhealthy Days                        15
+95% CI - Low_1                                                                                 15
+95% CI - High_1                                                                                15
+National Z-Score_1                                                                            121
+Low Birth Weight | Unreliable                                                                3023
+% Low Birth Weight                                                                            116
+95% CI - Low_2                                                                                116
+95% CI - High_2                                                                               116
+National Z-Score_2                                                                            121
+% LBW (Hispanic (all races))                                                                 1701
+% LBW (Hispanic (all races)) 95% CI - Low                                                    1701
+% LBW (Hispanic (all races)) 95% CI - High                                                   1701
+% LBW (Non-Hispanic AIAN)                                                                    2940
+% LBW (Non-Hispanic AIAN) 95% CI - Low                                                       2940
+% LBW (Non-Hispanic AIAN) 95% CI - High                                                      2940
+% LBW (Non-Hispanic Asian)                                                                   2541
+% LBW (Non-Hispanic Asian) 95% CI - Low                                                      2541
+% LBW (Non-Hispanic Asian) 95% CI - High                                                     2541
+% LBW (Non-Hispanic Black)                                                                   1823
+% LBW (Non-Hispanic Black) 95% CI - Low                                                      1823
+% LBW (Non-Hispanic Black) 95% CI - High                                                     1823
+% LBW (Non-Hispanic Native Hawaiian and Other Pacific Islander)                              3118
+% LBW (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - Low                 3118
+% LBW (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - High                3118
+% LBW (Non-Hispanic 2+ races)                                                                2378
+% LBW (Non-Hispanic 2+ races) 95% CI - Low                                                   2378
+% LBW (Non-Hispanic 2+ races) 95% CI - High                                                  2378
+% LBW (Non-Hispanic White)                                                                   1287
+% LBW (Non-Hispanic White) 95% CI - Low                                                      1287
+% LBW (Non-Hispanic White) 95% CI - High                                                     1287
+Poor Mental Health Days | Average Number of Mentally Unhealthy Days                            15
+95% CI - Low_3                                                                                 15
+95% CI - High_3                                                                                15
+National Z-Score_3                                                                            121
+Poor or Fair Health | % Fair or Poor Health                                                    15
+95% CI - Low_4                                                                                 15
+95% CI - High_4                                                                                15
+National Z-Score_4                                                                            121
+Flu Vaccinations | % Vaccinated                                                                34
+National Z-Score_5                                                                            121
+% Vaccinated (AIAN)                                                                          2621
+% Vaccinated (Asian)                                                                         2067
+% Vaccinated (Black)                                                                         1478
+% Vaccinated (Hispanic)                                                                      1662
+% Vaccinated (White)                                                                          938
+Access to Exercise Opportunities | % With Access to Exercise Opportunities                     62
+National Z-Score_6                                                                            121
+Food Environment Index                                                                         59
+National Z-Score_7                                                                            121
+Primary Care Physicians | # Primary Care Physicians                                           173
+Primary Care Physicians Rate                                                                  173
+Primary Care Physicians Ratio                                                                 173
+National Z-Score_8                                                                            121
+Mental Health Providers | # Mental Health Providers                                           186
+Mental Health Provider Rate                                                                   186
+Mental Health Provider Ratio                                                                  186
+National Z-Score_9                                                                            121
+Dentists | # Dentists                                                                         103
+Dentist Rate                                                                                  103
+Dentist Ratio                                                                                 103
+National Z-Score_10                                                                           121
+Preventable Hospital Stays | Preventable Hospitalization Rate                                  90
+National Z-Score_11                                                                           121
+Preventable Hosp. Rate (AIAN)                                                                2941
+Preventable Hosp. Rate (Asian)                                                               2829
+Preventable Hosp. Rate (Black)                                                               1922
+Preventable Hosp. Rate (Hispanic)                                                            2439
+Preventable Hosp. Rate (White)                                                               1569
+Mammography Screening | % with Annual Mammogram                                                38
+National Z-Score_12                                                                           121
+% Screened (AIAN)                                                                            2835
+% Screened (Asian)                                                                           2306
+% Screened (Black)                                                                           1757
+% Screened (Hispanic)                                                                        2125
+% Screened (White)                                                                           1259
+Uninsured | # Uninsured                                                                        16
+% Uninsured                                                                                    16
+95% CI - Low_5                                                                                 16
+95% CI - High_5                                                                                16
+National Z-Score_13                                                                           121
+Severe Housing Problems | % Severe Housing Problems                                            15
+95% CI - Low_6                                                                                 16
+95% CI - High_6                                                                                16
+Severe Housing Cost Burden                                                                     15
+Severe Housing Cost Burden 95% CI - Low                                                        15
+Severe Housing Cost Burden 95% CI - High                                                       15
+Overcrowding                                                                                   15
+Overcrowding 95% CI - Low                                                                      15
+Overcrowding 95% CI - High                                                                     15
+Inadequate Facilities                                                                          15
+Inadequate Facilities 95% CI - Low                                                             15
+Inadequate Facilities 95% CI - High                                                            15
+National Z-Score_14                                                                           121
+Driving Alone to Work | % Drive Alone to Work                                                  15
+95% CI - Low_7                                                                                 15
+95% CI - High_7                                                                                15
+National Z-Score_15                                                                           121
+% Drive Alone (AIAN)                                                                         2789
+% Drive Alone (AIAN) 95% CI - Low                                                            2789
+% Drive Alone (AIAN) 95% CI - High                                                           2789
+% Drive Alone (Asian)                                                                        2600
+% Drive Alone (Asian) 95% CI - Low                                                           2600
+% Drive Alone (Asian) 95% CI - High                                                          2600
+% Drive Alone (Black)                                                                        2145
+% Drive Alone (Black) 95% CI - Low                                                           2145
+% Drive Alone (Black) 95% CI - High                                                          2145
+% Drive Alone (Hispanic)                                                                     1868
+% Drive Alone (Hispanic) 95% CI - Low                                                        1868
+% Drive Alone (Hispanic) 95% CI - High                                                       1868
+% Drive Alone (White)                                                                        1489
+% Drive Alone (White) 95% CI - Low                                                           1489
+% Drive Alone (White) 95% CI - High                                                          1489
+Long Commute - Driving Alone | # Workers who Drive Alone                                       15
+% Long Commute - Drives Alone                                                                  15
+95% CI - Low_8                                                                                 15
+95% CI - High_8                                                                                15
+National Z-Score_16                                                                           121
+Air Pollution: Particulate Matter | Average Daily PM2.5                                        95
+National Z-Score_17                                                                           121
+Drinking Water Violations | Presence of Water Violation                                       119
+National Z-Score_18                                                                           121
+Broadband Access | % Households with Broadband Access                                          15
+# Households with Broadband Access                                                             15
+95% CI - Low_9                                                                                 15
+95% CI - High_9                                                                                15
+National Z-Score_19                                                                           121
+Library Access | Visits per service area population                                           144
+National Z-Score_20                                                                           121
+Some College | # Some College                                                                  16
+Population                                                                                     16
+% Some College                                                                                 16
+95% CI - Low_10                                                                                52
+95% CI - High_10                                                                               52
+National Z-Score_21                                                                           121
+High School Completion | # Completed High School                                               15
+Population_1                                                                                   15
+% Completed High School                                                                        15
+95% CI - Low_11                                                                                41
+95% CI - High_11                                                                               41
+National Z-Score_22                                                                           121
+Unemployment | # Unemployed                                                                    17
+Labor Force                                                                                    17
+% Unemployed                                                                                   17
+National Z-Score_23                                                                           121
+Income Inequality | 80th Percentile Income                                                     37
+20th Percentile Income                                                                         37
+Income Ratio                                                                                   37
+National Z-Score_24                                                                           121
+Children in Poverty | % Children in Poverty                                                    16
+95% CI - Low_12                                                                                16
+95% CI - High_12                                                                               16
+National Z-Score_25                                                                           121
+% Children in Poverty (AIAN)                                                                 2413
+% Children in Poverty (Asian)                                                                2435
+% Children in Poverty (Black)                                                                1578
+% Children in Poverty (Hispanic)                                                              744
+% Children in Poverty (White)                                                                 542
+Injury Deaths | # Injury Deaths                                                               116
+Injury Death Rate                                                                             116
+95% CI - Low_13                                                                               116
+95% CI - High_13                                                                              116
+National Z-Score_26                                                                           121
+Injury Death Rate (Hispanic (all races))                                                     2287
+Injury Death Rate (Hispanic (all races)) 95% CI - Low                                        2287
+Injury Death Rate (Hispanic (all races)) 95% CI - High                                       2287
+Injury Death Rate (Non-Hispanic AIAN)                                                        2945
+Injury Death Rate (Non-Hispanic AIAN) 95% CI - Low                                           2945
+Injury Death Rate (Non-Hispanic AIAN) 95% CI - High                                          2945
+Injury Death Rate (Non-Hispanic Asian)                                                       2915
+Injury Death Rate (Non-Hispanic Asian) 95% CI - Low                                          2915
+Injury Death Rate (Non-Hispanic Asian) 95% CI - High                                         2915
+Injury Death Rate (Non-Hispanic Black)                                                       2010
+Injury Death Rate (Non-Hispanic Black) 95% CI - Low                                          2010
+Injury Death Rate (Non-Hispanic Black) 95% CI - High                                         2010
+Injury Death Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander)                  3175
+Injury Death Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - Low     3175
+Injury Death Rate (Non-Hispanic Native Hawaiian and Other Pacific Islander) 95% CI - High    3175
+Injury Death Rate (Non-Hispanic White)                                                       1630
+Injury Death Rate (Non-Hispanic White) 95% CI - Low                                          1630
+Injury Death Rate (Non-Hispanic White) 95% CI - High                                         1630
+Social Associations | # Associations                                                           15
+Social Association Rate                                                                        15
+National Z-Score_27                                                                           121
+Child Care Cost Burden | % Household Income Required for Child Care Expenses                   18
+National Z-Score_28                                                                           121
+
+
+=== POTENTIAL REGION IDENTIFIERS ===
+['FIPS', 'State', 'County']
+
+Unique values in FIPS: 3210
+Duplicates in FIPS: 0 rows
+
+Unique values in State: 51
+Duplicates in State: 3210 rows
+Sample duplicates:
+    FIPS  ... National Z-Score_28
+0   1000  ...                 NaN
+36  1071  ...           -0.748688
+37  1073  ...           -0.431771
+38  1075  ...            0.069417
+39  1077  ...           -0.746319
+40  1079  ...           -0.617284
+41  1081  ...           -0.682585
+43  1085  ...            0.998690
+44  1087  ...            1.118885
+45  1089  ...           -1.607947
+
+[10 rows x 212 columns]
+
+Unique values in County: 1866
+Duplicates in County: 1777 rows
+Sample duplicates:
+       FIPS  ... National Z-Score_28
+1524  29001  ...            0.479342
+2183  40001  ...            1.938714
+820   19001  ...           -0.791681
+1026  21001  ...           -0.945824
+2298  42001  ...            0.964391
+2094  39001  ...            0.335174
+2040  38001  ...            0.790372
+256    8001  ...            1.062164
+3018  53001  ...            1.178023
+1697  31001  ...            0.070638
+
+[10 rows x 212 columns]
